@@ -1,0 +1,78 @@
+@import 'utilities.css';
+:root{
+     --primary:#e06267;
+     --dark:#232424;
+     --pure:#ffffff;
+     --ternary:#707070;
+     --light:#c0b2b2;
+     
+}
+body{
+    font-family: 'Mukta', sans-serif;
+}
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    --webkit-font-smoothing:antialised;
+}
+header{
+    background: var(--dark);
+    
+
+}
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform: uppercase;
+    transition:all .3s ease;
+
+}
+header nav .left a:hover{
+    color: var(--primary);
+
+
+}
+header nav{
+    padding:2rem 0:
+}
+header nav .branding{
+    margin-right:3rem;
+    
+
+    
+}
+.hero .left img{
+    width: 290px;
+    
+}
+.hero .right{
+    color:var(--pure);
+}
+
+.hero .right h6{
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 0.3rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height:1.2;
+    margin-bottom: 2rem;
+    color: var(--pure)
+}
+.hero .right h1 span{
+    color:var(--primary)
+}
+.hero .right p{
+    font-size: 1rem;
+    line-height:1.5;
+    margin-bottom:2rem;
+}
